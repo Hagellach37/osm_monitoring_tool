@@ -1,6 +1,6 @@
 #!/bin/python
 # -*- coding: UTF-8 -*-
-# Author: B. Herfort, 2016
+# Author: B. Herfort, 2016, GIScience Heidelberg
 ###########################################
 
 import sys
