@@ -1,4 +1,4 @@
-# OSM Monitoring Tool for Python
+# OpenStreetMap Monitoring Tool for Python
 
 This Tool provides several python scripts that can be used to download data from the OpenStreetMap API and analyse changes over time. The scripts can be used seperately, but there is also a version that combines all of them. In the following you will find some descriptions.
 
