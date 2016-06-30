@@ -27,7 +27,7 @@ Workflow:
 1. First run:
   - download OSM data for timestep 1 --> uses get_tm_osm_data.py
   - merge single files for timestep 1 --> uses merge_osm_data.py
-  - wait 15 minutes
+  - wait 15 minutes 
 
 2. Second run and further runs:
   - download OSM data for timestep 2 (3,...) --> uses get_tm_osm_data.py
@@ -36,6 +36,8 @@ Workflow:
   - calculate statistics and add to statistics file --> uses get_diff_stats.py
   - wait 15 minutes, then start again with 2.1
 
+Issues:
+- you may change the waiting time (in seconds) at lines 60 and 106
 
 ## Description for individual scripts
 
@@ -98,6 +100,8 @@ Input arguments:
 
 Output:
 - .txt file with information on number of created, modified and deleted OSM objects
+- header: diff_file;nodes_created;nodes_modified;nodes_deleted;ways_created;ways_modified;ways_deleted;buildings_created;buildings_modified;buildings_deleted
+- delimiter ';'
 
 
 
