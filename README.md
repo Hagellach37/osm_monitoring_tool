@@ -5,7 +5,8 @@ This Tool provides several python scripts that can be used to download data from
 ## Set up
 
 Download the python scripts. Download osmosis-latest (http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip) unzip and copy to the same folder.
-Requirements: python libraries ogr and urllib2
+
+Further requirements: python libraries ogr and urllib2
 
 
 ## Analyse OSM contributions to Tasking Manager project every 15 Minutes
