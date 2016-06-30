@@ -23,16 +23,18 @@ Output:
 - statistics figures --> not implemented yet
 
 Workflow:
+
 1. First run:
-  1. download OSM data for timestep 1 --> uses get_tm_osm_data.py
-  2. merge single files for timestep 1 --> uses merge_osm_data.py
-  3. wait 15 minutes 
+  - download OSM data for timestep 1 --> uses get_tm_osm_data.py
+  - merge single files for timestep 1 --> uses merge_osm_data.py
+  - wait 15 minutes
+
 2. Second run and further runs:
-  1. download OSM data for timestep 2 (3,...) --> uses get_tm_osm_data.py
-  2. merge single files for timestep 2 (3,...) --> uses merge_osm_data.py
-  3. compare timestep 1 and timestep 2 (or timestep 2 and timestep 3,...) --> uses compare_osm_data.py
-  4. calculate statistics and add to statistics file --> uses get_diff_stats.py
-  5. wait 15 minutes, then start again with 2.1
+  - download OSM data for timestep 2 (3,...) --> uses get_tm_osm_data.py
+  - merge single files for timestep 2 (3,...) --> uses merge_osm_data.py
+  - compare timestep 1 and timestep 2 (or timestep 2 and timestep 3,...) --> uses compare_osm_data.py
+  - calculate statistics and add to statistics file --> uses get_diff_stats.py
+  - wait 15 minutes, then start again with 2.1
 
 
 ## Description for individual scripts
