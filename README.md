@@ -53,6 +53,7 @@ Output:
 - many .osm files within the output directory
 
 Workflow:
+
 1. downloads information about the Tasking Manager project
 2. iterates over each tile in the Tasking Manager project
 3. downloads all OSM data via the OpenStreetMap API given the bounding box for each tile
